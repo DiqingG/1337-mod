@@ -1,0 +1,26 @@
+{
+    "name": "1337-mod",
+    "displayName": "1337-mod",
+    "description": "Modified 1337 theme",
+    "version": "0.0.1",
+    "publisher": "diqing-008",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DiqingG/OneSeti-theme"
+	},
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "1337-mod",
+                "uiTheme": "vs-dark",
+                "path": "./themes/1337-mod-color-theme.json"
+            }
+        ]
+    }
+}
